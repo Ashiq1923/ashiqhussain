@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.notify {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: rgba(8, 226, 8, 0.699);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.reloadPage,
+.adddata {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    border: none;
+    background: rgb(252, 13, 13);
+    border: 1px solid black;
+padding: 5px 5px;
+border-radius: 10px;
+}
+
+.table {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.table table {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-collapse: collapse; /* Ensures borders are merged */
+}
+
+.table table th, .table table td {
+    padding: 10px 10px;
+    border-bottom: 2px solid;
+    font-size: 30px;
+    border: 1px solid black;
+    
+}
+
+.table table th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Make header text bold */
+}
+
+.table table td button {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    border: 1px solid #111;
+}
+
+.del_btn {
+    background: rgb(252, 13, 13);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.up_btn {
+    background: rgba(0, 157, 255, 0.76);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.up_btn a {
+    color: #1b1919;
+}
+
+.table table td button:hover {
+    background: transparent;
+    color: #111;
+}
+
+.update_data {
+    display: none;
+}
+.add-result-btn{
+    background: rgba(4, 226, 4, 0.685);
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
